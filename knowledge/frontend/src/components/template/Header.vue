@@ -1,4 +1,4 @@
-<template>
+ <template>
   <header class="header">
     <!-- v-if renderizar ou não renderizar um elemento com base em uma condição -->
     <a class="toggle" @click="toggleMenu" v-if="!hideToggle">

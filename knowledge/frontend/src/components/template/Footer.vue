@@ -7,18 +7,12 @@
 <script>
 export default {
     name: "Footer",
-    // data: function(){
-    //     return {
-    //         contador: 0
-    //     }
-    // }
-
 }
 </script>
 
 <style>
     .footer{
-        grid-area: footer;
+        grid-area: footer;/*Definição da area de grid*/ 
         background-color: #DDD;
         color: #333;
 

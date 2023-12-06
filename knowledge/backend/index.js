@@ -21,6 +21,9 @@ consign()
 //Injetar em cada uma das dependências que ele vai carregar ele vai injetar como parâmetro o app que acabou de criar  
 
 
-app.listen(3000, () => {
+app.listen({
+    port :process.env.PORT ? Number(process.env.PORT) : 3000
+    }
+    , () => {
     console.log('Backend executando...')
 })
